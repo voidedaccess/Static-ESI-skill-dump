@@ -2,7 +2,7 @@ from esipy import App
 from esipy import EsiClient
 import json
 
-app = App.create(url="https://esi.tech.ccp.is/latest/swagger.json?datasource=tranquility")
+app = App.create(url="https://esi.evetech.net/latest/swagger.json?datasource=tranquility")
 client = EsiClient(
     retry_requests=True,
     header={'User-Agent': 'DumpSkills'},
